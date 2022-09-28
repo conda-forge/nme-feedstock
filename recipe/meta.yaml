@@ -1,5 +1,5 @@
 {% set name = "nme" %}
-{% set version = "0.1.5" %}
+{% set version = "0.1.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/nme-{{ version }}.tar.gz
-  sha256: 5147dbb795d2d40a1a3b259572b5253b196180e680e3d050acd98a1b73950a9c
+  sha256: 335830b9f662f31ac403fa4d4e7cbd31adc6db3fcec82c5662c8881da889c5c8
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 1
+  number: 0
 
 requirements:
   host:
