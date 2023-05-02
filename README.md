@@ -1,11 +1,11 @@
-About nme
-=========
+About nme-feedstock
+===================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/nme-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/Czaki/nme
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/nme-feedstock/blob/main/LICENSE.txt)
 
 Summary: Package for simplify data structures migrations
 
