@@ -17,12 +17,13 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.7
+    - python >=3.8
     - setuptools-scm >=3.4
     - setuptools-scm
   run:
     - packaging
-    - python >=3.7
+    - python >=3.8
+    - local-migrator
 
 test:
   imports:
