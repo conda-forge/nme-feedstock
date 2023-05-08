@@ -37,7 +37,7 @@ about:
   home: https://github.com/Czaki/nme
   summary: Package for simplify data structures migrations
   license: MIT
-  license_file: LICENSE.txt
+  license_file: LICENSE
 
 extra:
   recipe-maintainers:
